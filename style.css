@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  margin: 0;
+  font-family: "montserrat";
+}
+
+.mrgn {
+  margin: 0vw 10.417vw;
+}
+
+#portrait {
+  max-width: 100%;
+  position: absolute;
+}
+header {
+  background-image: url(assets/bg_header_full.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.656vw;
+}
+
+.blueT {
+  font-size: 2.813vw;
+  font-family: "karla";
+  font-weight: 300;
+  color: #1b1b87;
+  margin: 0;
+}
+#menuItems > ul {
+  display: flex;
+  list-style: none;
+}
+
+#menuItems > ul > li {
+  display: flex;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+li:not(:last-child) {
+  margin-right: 1.979vw;
+}
+
+#titleHeader {
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 4.375vw;
+  width: 50vw;
+  margin: 0;
+}
+
+/*/////ABOUT ME*/
+
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #dcf2f7;
+}
+
+#aboutme_bg {
+  background-color: #dcf2f7;
+  height: 100vh;
+}
+
+#bigText {
+  text-align: center;
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size: 2.813vw;
+}
+#addAboutme {
+  text-align: center;
+  margin-bottom: 9vw;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.906vw;
+  position: absolute;
+  top: 42vw;
+}
+#aboutme > .blueT {
+  margin-top: 9vw;
+  margin-bottom: -1vw;
+}
+.card > h3,
+p,
+img {
+  padding: 0vw 3vw;
+}
+
+.icon {
+  margin-top: 7vw;
+  width: 17%;
+}
+
+.cardText {
+  color: #f6f6f6;
+  margin-bottom: 9.3vw;
+}
+.card > h3 {
+  font-size: 2.083vw;
+  font-weight: 600;
+  color: white;
+}
+.card {
+  width: 22.604vw;
+  height: 37.031vw;
+}
+#card1 {
+  background-image: url(assets/smallrect1.svg);
+  background-size: cover;
+}
+
+#card2 {
+  background-image: url(assets/smallrect2.svg);
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url(assets/smallrect3.svg);
+  background-size: cover;
+}
+
+/*/ ////MYWORK*/
+
+#portfolio {
+  margin-top: 40vw;
+}
+
+h2 {
+  font-size: 4.375vw;
+}
+
+article > p {
+  padding: 0vw;
+}
+/*/ ////INNSTAGRAM*/
+
+#instagram {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#igCta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*/ ////FOOTER*/
+
+#sLine {
+  width: 4.531vw;
+  height: 0.26vw;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#up {
+  display: grid;
+  grid-template-columns: 1fr 7fr 4fr;
+  grid-column-gap: 2.083vw;
+}
+
+#down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
