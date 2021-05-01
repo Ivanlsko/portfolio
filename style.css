@@ -150,6 +150,26 @@ h2 {
 article > p {
   padding: 0vw;
 }
+
+#worksGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#worksGrid > img {
+  max-width: 80%;
+  padding: 0;
+}
+
+.right {
+  justify-self: right;
+  margin-right: -1.5vw;
+}
+
+.left {
+  justify-self: left;
+  margin-left: -1.5vw;
+}
 /*/ ////INNSTAGRAM*/
 
 #instagram {
