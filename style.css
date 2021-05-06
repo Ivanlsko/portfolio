@@ -6,7 +6,7 @@
   --primaryColor: #1b1b87;
   --shadowButton: 1px 12px 38px 2px rgba(27, 27, 135, 0.2);
   --secondaryDark: #3f3f3f;
-  --secondaryLight: #f6f6f6;
+  --secondaryLight: #e4e4e4;
   --bodyCopy: 1.2vw;
   --lineHeight: 1.8em;
 }
@@ -20,6 +20,7 @@ a {
   color: white;
   text-decoration: none;
   font-family: "karla";
+  font-size: var(--bodyCopy);
 }
 
 .mrgn {
@@ -48,7 +49,7 @@ header {
 }
 
 .blueT {
-  font-size: 2.813vw;
+  font-size: 2.53vw;
   font-family: "karla";
   font-weight: 300;
   color: #1b1b87;
@@ -108,7 +109,7 @@ h1 {
   margin-bottom: 9vw;
   width: 60vw;
   color: var(--secondaryDark);
-  font-size: var(--bodyCopy);
+  font-size: calc(1.2 * var(--bodyCopy));
   font-family: "karla";
   font-weight: 300;
   line-height: var(--lineHeight);
@@ -128,11 +129,11 @@ h1 {
 .card > h3,
 p,
 img {
-  padding: 0vw 3vw;
+  padding: 0vw 2.8vw;
 }
 
 .icon {
-  margin-top: 7vw;
+  margin-top: 4vw;
   width: 17%;
 }
 
@@ -324,10 +325,13 @@ footer {
 #down > p {
   padding: 0;
   margin-left: 3vw;
+  font-size: var(--bodyCopy);
+  color: var(--secondaryLight);
 }
 
 #down > a {
   margin-right: 3vw;
+  color: var(--secondaryLight);
 }
 #footerHeading {
   padding: 0;
