@@ -172,6 +172,14 @@ article > p {
 }
 /*/ ////INNSTAGRAM*/
 
+#instagram_bg {
+  background-color: #dcf2f7;
+  height: 45.208vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vw;
+}
 #instagram {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -181,6 +189,52 @@ article > p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+#igCta > h2 {
+  text-align: center;
+}
+
+#posts {
+  display: flex;
+  margin-left: -1vw;
+}
+
+#leftPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 2vw;
+}
+
+#rightPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -10vw;
+}
+#leftUp {
+  width: 95%;
+  padding: 0;
+  margin-bottom: 2vw;
+  margin-top: -5vw;
+}
+
+#leftBottom {
+  width: 76%;
+  padding: 0;
+}
+
+#rightUp {
+  width: 76%;
+  padding: 0;
+  margin-bottom: 2vw;
+}
+
+#rightBottom {
+  width: 91%;
+  padding: 0;
 }
 
 /*/ ////FOOTER*/
