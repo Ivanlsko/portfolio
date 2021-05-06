@@ -4,7 +4,7 @@
 :root {
   --buttonText: 1.25vw;
   --primaryColor: #1b1b87;
-  --shadowButton: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --shadowButton: 1px 12px 38px 2px rgba(27, 27, 135, 0.2);
 }
 
 body {
@@ -328,6 +328,7 @@ button {
   font-family: "karla";
   font-size: var(--buttonText);
   color: white;
+  box-shadow: var(--shadowButton);
 }
 
 .whitebgButton {
