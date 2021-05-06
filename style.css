@@ -10,7 +10,11 @@
 body {
   margin: 0;
   font-family: "montserrat";
-  box-shadow: ;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .mrgn {
@@ -64,13 +68,13 @@ li:not(:last-child) {
 }
 
 #titleHeader {
-  margin-top: 200px;
+  margin-top: 10vw;
 }
 
 h1 {
   font-size: 4.375vw;
   width: 50vw;
-  margin: 0;
+  margin: 1vw 0vw 3vw;
 }
 
 /*/////ABOUT ME*/
@@ -320,7 +324,7 @@ footer {
   margin-bottom: 5vw;
 }
 
-button {
+.button {
   background-color: var(--primaryColor);
   padding: 1.1vw 4.2vw;
   border-radius: 1.406vw;
