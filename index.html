@@ -8,15 +8,21 @@
     <title>Ivan Lesko</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <div class="mrgn">
         <div id="navbar">
-          <img src="assets/logo.svg" alt="logo" id="logo" />
+          <a href="index.html"
+            ><img src="assets/logo.svg" alt="logo" id="logo"
+          /></a>
           <div id="menuItems">
             <ul>
-              <li><a href="#aboutme"> About me</a></li>
+              <li><a href="#aboutme">About me</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="">Download CV</a></li>
+              <li>
+                <a href="assets/CV-Lesko-Ivan.pdf" download="CV-Lesko-Ivan"
+                  >Download CV</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -24,7 +30,7 @@
           <h3 class="blueT">Ivan Lesko</h3>
           <h1>I am a UI/UX designer, who loves to code.</h1>
           <a
-            class="button"
+            class="button noborderButton"
             href="mailto: il.ivanlesko@gmail.com"
             target="_blank"
             >Get in touch</a
@@ -37,14 +43,15 @@
         <div id="aboutme" class="mrgn">
           <h3 class="blueT">A few words about me</h3>
           <p id="bigText">
-            As the name implied, this example is for the transaction buttons.
-            When you hover the button, the card smoothly moves and inserts
-            itself into a card swiping machine. Since it is.
+            I am Ivan Lesko, but people usually call me Ivo. I develop
+            eye-pleasant user interfaces with a focus on satisfactory
+            experience.
           </p>
           <p id="addAboutme">
-            As the name implied, this example is for the transaction buttons.
-            When you hover the button, the card smoothly moves and inserts
-            itself into a card swiping machine. Since it is
+            What I mean by “developing”? Well, I am able to work on every stage
+            of the project. Starting with ideation, user research, market
+            validation, continuing with sketching, wireframing, prototyping, and
+            ending with coding the solution itself.
           </p>
           <div id="cards">
             <div id="card1" class="card">
@@ -57,7 +64,7 @@
               <p class="cardText">
                 One of my key features is understanding new concepts fairly
                 quickly. Do you want me to do something I don't know? Give me a
-                bit of time, and I will learn it.
+                bit of time, and I will try my best to learn it.
               </p>
             </div>
             <div id="card2" class="card">
@@ -68,9 +75,10 @@
               />
               <h3>CHALLENGE SEEKER</h3>
               <p class="cardText">
-                One of my key features is understanding new concepts fairly
-                quickly. Do you want me to do something I don't know? Give me a
-                bit of time, and I will learn it.
+                I was always a very competitive person, continuously looking for
+                a challenge. This "feature" remained and I am applying it in my
+                day-to-day life. Coding marathons, design sprints, new projects,
+                I love them all!
               </p>
             </div>
             <div id="card3" class="card">
@@ -81,9 +89,9 @@
               />
               <h3>DIGITAL CROSSOVER</h3>
               <p class="cardText">
-                One of my key features is understanding new concepts fairly
-                quickly. Do you want me to do something I don't know? Give me a
-                bit of time, and I will learn it.
+                I have experience from various digital fields - UI/UX, web
+                development, marketing, social media. This means I can easily
+                communicate with other departments.
               </p>
             </div>
           </div>
@@ -91,7 +99,10 @@
       </section>
       <section id="portfolio" class="mrgn">
         <article>
-          <h2>My work</h2>
+          <h2>
+            <span class="line"></span>
+            My work
+          </h2>
           <p>
             As the name implied, this example is for the transaction buttons.
             When you hover the button, the card smoothly moves and inserts
@@ -126,7 +137,7 @@
               class="button noborderButton"
               target="_blank"
             >
-              Yeah do that</a
+              Take me there</a
             >
           </div>
         </div>
@@ -135,27 +146,41 @@
     <footer>
       <section class="mrgn" id="footer">
         <div id="up">
-          <div id="sLine"></div>
+          <div class="sLine"></div>
           <div id="left">
             <h2 id="footerHeading">I am always seeking for new challenges.</h2>
             <h3 id="footerHead3">Do you have one for me?</h3>
             <div id="buttons">
-              <a href="" class="button whitebgButton">Get in touch</a>
-              <a href="" class="button">Download CV</a>
+              <a
+                href="mailto: il.ivanlesko@gmail.com"
+                target="_blank"
+                class="button whitebgButton"
+                >Get in touch</a
+              >
+              <a
+                href="assets/CV-Lesko-Ivan.pdf"
+                download="CV-Lesko-Ivan"
+                class="button"
+                >Download CV</a
+              >
             </div>
           </div>
           <div id="right">
             <ul>
               <li><a href="#aboutme"> About me</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="">Download CV</a></li>
+              <li>
+                <a href="assets/CV-Lesko-Ivan.pdf" download="CV-Lesko-Ivan"
+                  >Download CV</a
+                >
+              </li>
             </ul>
           </div>
         </div>
         <div id="divider"></div>
         <div id="down">
           <p>© 2021, Ivan Lesko, All rights reserved.</p>
-          <a class="scrollTo">Back to top</a>
+          <a href="#top" class="scrollTo">Back to top</a>
         </div>
       </section>
     </footer>
