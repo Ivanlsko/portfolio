@@ -9,6 +9,7 @@
   --secondaryLight: #e4e4e4;
   --bodyCopy: 1.2vw;
   --lineHeight: 1.8em;
+  --shadow: 2px 4px 23px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -153,20 +154,24 @@ img {
 .card {
   width: 22.604vw;
   height: 37.031vw;
+  box-shadow: var(--shadow);
 }
 #card1 {
   background-image: url(assets/smallrect1.svg);
   background-size: cover;
+  border-radius: 2.083vw;
 }
 
 #card2 {
   background-image: url(assets/smallrect2.svg);
   background-size: cover;
+  border-radius: 2.083vw;
 }
 
 #card3 {
   background-image: url(assets/smallrect3.svg);
   background-size: cover;
+  border-radius: 2.083vw;
 }
 
 /*/ ////MYWORK*/
