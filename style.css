@@ -26,12 +26,16 @@ a {
   align-items: center;
 }
 
-.hoverLine {
+.hoverLineActive {
   display: block;
   width: 1vw;
   height: 0.15vw;
   background-color: white;
   margin-right: 0.5vw;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .mrgn {
