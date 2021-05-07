@@ -38,6 +38,9 @@ a {
   font-weight: 600;
 }
 
+.bigger {
+  transform: scale(1.05);
+}
 .mrgn {
   margin: 0vw 10.417vw;
 }
@@ -51,7 +54,7 @@ a {
   position: absolute;
 }
 header {
-  background-image: url(assets/bgheader.jpg);
+  background-image: url(assets/bgheader3d.jpg);
   background-size: cover;
   height: 100vh;
   background-position: center;

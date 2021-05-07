@@ -22,4 +22,19 @@ function hoverStateNav() {
 }
 
 const button = document.querySelectorAll(".button");
-const buttomArray = Array.from(button);
+const buttonArray = Array.from(button);
+console.log(buttonArray);
+
+buttonArray[0].addEventListener("mouseenter", buttonHover);
+buttonArray[1].addEventListener("mouseenter", buttonHover);
+buttonArray[2].addEventListener("mouseenter", buttonHover);
+buttonArray[3].addEventListener("mouseenter", buttonHover);
+
+buttonArray[0].addEventListener("mouseleave", buttonHover);
+buttonArray[1].addEventListener("mouseleave", buttonHover);
+buttonArray[2].addEventListener("mouseleave", buttonHover);
+buttonArray[3].addEventListener("mouseleave", buttonHover);
+
+function buttonHover() {
+  this.classList.toggle("bigger");
+}
