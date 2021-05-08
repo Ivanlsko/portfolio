@@ -33,7 +33,9 @@ a {
   background-color: white;
   margin-right: 0.5vw;
 }
-
+.topNavItem {
+  padding-right: 1.9vw;
+}
 .bold {
   font-weight: 600;
 }
@@ -86,9 +88,6 @@ header {
 }
 li {
   text-decoration: none;
-}
-li:not(:last-child) {
-  margin-right: 1.979vw;
 }
 
 #titleHeader {
@@ -216,7 +215,7 @@ h2 {
 article > p {
   margin-top: -2vw;
   padding: 0vw;
-  width: 40vw;
+  width: 45vw;
   color: var(--secondaryDark);
   font-size: var(--bodyCopy);
   font-family: "karla";
@@ -293,22 +292,30 @@ article > p {
   padding: 0;
   margin-bottom: 2vw;
   margin-top: -5vw;
+  box-shadow: var(--shadow);
+  border-radius: 1.406vw;
 }
 
 #leftBottom {
   width: 76%;
   padding: 0;
+  box-shadow: var(--shadow);
+  border-radius: 1.406vw;
 }
 
 #rightUp {
   width: 76%;
   padding: 0;
   margin-bottom: 2vw;
+  box-shadow: var(--shadow);
+  border-radius: 1.406vw;
 }
 
 #rightBottom {
   width: 91%;
   padding: 0;
+  box-shadow: var(--shadow);
+  border-radius: 1.406vw;
 }
 
 /*/ ////FOOTER*/
@@ -316,6 +323,7 @@ article > p {
 footer {
   background-color: #1b1b87;
   color: white;
+  min-height: 100vh;
 }
 .sLine {
   width: 6vw;
@@ -375,10 +383,6 @@ footer {
   margin-top: 1vw;
 }
 
-#right > ul > li {
-  margin-bottom: 1.5vw;
-}
-
 #footerHead3 {
   font-size: 2.813vw;
   font-weight: 500;
@@ -408,4 +412,12 @@ footer {
 .noborderButton {
   border: 3px solid var(--primaryColor);
   display: inline-block !important;
+}
+
+.bottomNavItem {
+  padding-bottom: 1vw;
+}
+
+#arrow {
+  padding: 0.5vw !important;
 }
