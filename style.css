@@ -56,8 +56,8 @@ a {
   position: absolute;
 }
 header {
-  background-image: url(assets/bgheader3d.jpg);
   background-size: cover;
+  background-image: url(assets/bgheader3d.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
