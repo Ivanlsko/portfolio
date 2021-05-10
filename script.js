@@ -24,3 +24,8 @@ buttonArray.forEach((button) => {
 function buttonHover() {
   this.classList.toggle("bigger");
 }
+
+document.querySelectorAll(".someIcon").forEach((someIcon) => {
+  someIcon.addEventListener("mouseenter", buttonHover);
+  someIcon.addEventListener("mouseleave", buttonHover);
+});
