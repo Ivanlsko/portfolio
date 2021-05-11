@@ -67,6 +67,10 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 2.656vw;
+  position: fixed;
+  top: 0;
+  width: calc(100vw - 2 * 10.417vw);
+  z-index: 999;
 }
 
 .blueT {
@@ -81,6 +85,10 @@ header {
   list-style: none;
 }
 
+#menuItems {
+  align-items: center;
+}
+
 #menuItems > ul > li {
   display: flex;
   list-style: none;
@@ -92,7 +100,28 @@ li {
 }
 
 #titleHeader {
-  margin-top: 10vw;
+  margin-top: 18vw;
+}
+
+.invert {
+  background-color: rgba(250, 250, 250, 0.8);
+
+  margin: 0vw -10.417vw 0vw -10.417vw !important;
+  width: 100vw !important;
+}
+.invert > #menuItems > ul > li > a {
+  color: var(--primaryColor) !important;
+}
+
+.invert > #menuItems {
+  margin-right: 10.417vw !important;
+  margin-top: -1.8vw;
+}
+
+.invert > a {
+  margin-left: 10.417vw !important;
+  margin-top: -2vw;
+  padding-bottom: 0.8vw;
 }
 
 #headerContent {
@@ -344,6 +373,8 @@ footer {
   background-color: #1b1b87;
   color: white;
   min-height: 100vh;
+  position: relative;
+  z-index: 1000;
 }
 .sLine {
   width: 6vw;

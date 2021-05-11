@@ -1,4 +1,4 @@
-const cardOne = document.querySelector("#addAboutme");
+const header = document.querySelector("header");
 const options = {
   rootMargin: "0% 0% -30%",
 };
@@ -7,11 +7,11 @@ const observer = new IntersectionObserver(function (entries, observer) {
     console.log(entry);
     if (entry.isIntersecting == true) {
       console.log("tylepsi");
-      document.querySelector("#addAboutme").style.color = "red";
+      document.querySelector("#navbar").classList.remove("invert");
     } else {
-      document.querySelector("#addAboutme").style.color = "black";
+      document.querySelector("#navbar").classList.add("invert");
     }
   });
 }, options);
 
-observer.observe(cardOne);
+observer.observe(header);
