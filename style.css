@@ -493,12 +493,12 @@ footer {
 /* SECTION ANIMATIONS */ /* SECTION ANIMATIONS */ /* SECTION ANIMATIONS */
 
 .goUp {
-  animation: goUp 0.4s forwards ease-in;
+  animation: goUp 1s forwards ease-in;
 }
 
 @keyframes goUp {
   from {
-    transform: translateY(10vw);
+    transform: translateY(20vw);
     opacity: 0;
   }
   to {
