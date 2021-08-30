@@ -36,4 +36,6 @@ const observerSection = new IntersectionObserver((entries) => {
   });
 }, optionsSection);
 
+//
+
 section.forEach((thatSection) => observerSection.observe(thatSection));
